@@ -137,12 +137,12 @@ body::-webkit-scrollbar {
 
 .item-icon {
   font-size: 0.7rem;
-  color: #F5F5F9 !important;
+  color: #C69C9C !important;
 }
 
 .navbar-nav {
   /* background-color: pink; */
-  background-color: #F5F5F9;
+  background-color: #C69C9C;
 }
 
 .modal-content {
