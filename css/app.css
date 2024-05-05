@@ -1,0 +1,178 @@
+@font-face {
+  font-family: boheme;
+  src: url(./font/DFVN-Boheme-Floral.otf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  padding: 0 !important;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.font-estetik {
+  /* font-family: "Times New Roman", Serif !important; */
+  font-family: boheme;
+  /* font-family: 'Boheme Floral', sans-serif; */
+  color: #ffffff !important;
+}
+
+.font-title {
+  font-family: boheme;
+  /* color: pink; */
+  color: #694D43;
+}
+
+.font-head {
+  font-family: 'Times New Roman', Times, serif !important;
+  color: #ffffff !important;
+}
+
+.font-content {
+  font-family: "Times New Roman",'Times New Roman', Times, serif !important;
+  /* color: pink !important; */
+  color: #694D43 !important;
+}
+
+.font-color {
+  /* color: pink; */
+  color: #694D43;
+}
+
+.cropper {
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.cropper1 {
+  width: 20rem;
+  height: 20rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.cropper img {
+  display: inline;
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  -o-object-position: 3px -50px;
+  object-position: 3px -50px;
+  scale: 1.5;
+}
+
+.btn-music {
+  position: fixed;
+  bottom: 9vh;
+  right: 2vh;
+  z-index: 1055;
+}
+
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: pink; */
+  background-color: #694D43;
+  z-index: 1056 !important;
+}
+
+.card-body {
+  overflow-wrap: break-word !important;
+}
+
+.mousey {
+  padding: 0.25rem 0.625rem;
+  height: 2rem;
+  border: 0.1rem solid #fff;
+  border-radius: 1.4rem;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+
+.scroller {
+  width: 0.25rem;
+  height: 0.625rem;
+  border-radius: 25%;
+  background-color: #fff;
+  animation-name: scroll;
+  animation-duration: 2.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll {
+  0% {
+    opacity: 0;
+  }
+
+  10% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
+
+.item-icon {
+  font-size: 0.7rem;
+  color: #fff !important;
+}
+
+.navbar-nav {
+  /* background-color: pink; */
+  background-color: #694D43;
+}
+
+.modal-content {
+  /* background-color: pink; */
+  background-color: #694D43;
+}
+
+.img-bank {
+  width: 7rem;
+  height: 7rem;
+}
+
+
+.img-bankking {
+  width: 15rem;
+  height: 10rem;
+}
+
+.rose-petal {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-image: url(https://image.ibb.co/kyUHab/rose.png);
+  background-size: cover;
+  /* opacity: 0.7; */
+}
+
+
+
+.img-people{
+  position: relative;
+  top: 5rem;
+}
